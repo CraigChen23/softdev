@@ -1,0 +1,3 @@
+Q0: If you remove render_template, then there would be an error because there would be no template or the template will not be used when loading the site
+
+Q1: http://localhost:5000/templates/my_foist_template/model_tmplt.html

@@ -5,6 +5,7 @@
 from flask import Flask
 app = Flask(__name__) #create instance of class Flask
 
+
 import csv
 import random
 
@@ -23,6 +24,7 @@ def pick_occupation_with_choices():
     occupation = random.choices(list(occupations.keys()), list(occupations.values()))
     return occupation[0] # random.choices() returns a list
 
+'''
 def populate_occupations():
     with open('occupations.csv') as f:
         rows = f.read().split("\n") # ['job class,percentage', 'management,6.1', ...]
@@ -42,7 +44,7 @@ def pick_occupation_with_choice():
             weighted_occupations.append(occupation)
 
     return random.choice(weighted_occupations)
-
+'''
 
 @app.route("/")       #assign fxn to route
 def hello_world():
