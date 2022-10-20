@@ -1,0 +1,34 @@
+body {
+    background: #666666;
+}
+
+.all{ /* div containing all text */
+    background: #767676;
+}
+
+.big{ /* div containing nav bar, main foo heading, and lorem ipsum */
+    column-count: 2;
+}
+.nav{ /* nav bar */
+    /*background: green;*/
+    margin-top: -3%;
+}
+
+.main{ /* main foo heading and lorem ipsum */
+    /*background: blue;*/
+    margin-left: -80%; /* moves this div to the left, past its border so that this column is wider than the nav bar */
+}
+
+h1{
+    background: #bebebe;
+    color: white;
+    text-align: center;
+}
+.w-nav{ /* lighter text of nav bar */
+    color: #d7d0c8;
+}
+.copyright{ /* copyright footer */
+    color: #767470;
+    background: #565656;
+    text-align: right;
+}
