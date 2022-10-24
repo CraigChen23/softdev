@@ -28,7 +28,7 @@ PROTIP: Insert your own in-line comments
    understand what is going on.
 '''
 
-@app.route("/" , methods=['POST']) # just 'POST' results in "Method not allowed"
+@app.route("/") # , methods=['POST']) # just 'POST' results in "Method not allowed"
 # 'GET' may be a method within the 'request' object
 # the file runs normally with just 'GET', but it also runs normally without the 'methods'
 def disp_loginpage():
