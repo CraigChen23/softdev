@@ -1,0 +1,14 @@
+Abid Talukder, Raven Tang, Craig Chen
+SoftDev
+K18: (Python+SQLite)3: A Mare Widge Made in Hebben
+2022-10-26
+time spent: 0.8 Hours
+
+* fetchall() returns a list of length 0 ? However, it is iterable, with each iteration corresponding to each row of the table. For each i in fetchall(), we can reference each cell value using index: i[0], i[1], etc.
+* delete_table ="DROP TABLE IF EXISTS students" helps us clean up before starting any new processes
+* 
+.mode column
+.headers on
+allow us to format our tables better in the shell. How can we use this in our Python database builder so that we can print with nicely formatted tables from there? We tried hard coding a formatter by iterating through and finding the longest value in each column, but there should be a feature that's easier.
+* Semicolons are so important for sqlite!
+* fetchall() needs to be printed or saved. Returning it will not doing it.
